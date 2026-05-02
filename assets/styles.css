@@ -483,7 +483,7 @@ li + li {
   background: transparent;
 }
 
-.video-placeholder {
+.video-note {
   display: grid;
   min-height: 15rem;
   place-items: center;
