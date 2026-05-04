@@ -481,6 +481,39 @@ li + li {
   padding-left: 0.4rem;
 }
 
+.instruction-figure {
+  margin: 1rem 0 1.4rem;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--card);
+  box-shadow: var(--shadow-sm);
+}
+
+.instruction-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.instruction-figure figcaption {
+  padding: 0.8rem 0.9rem;
+  color: var(--muted-foreground);
+  font-size: 0.85rem;
+  border-top: 1px solid var(--border);
+}
+
+.figure-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.figure-grid .instruction-figure {
+  margin: 0 0 1.4rem;
+}
+
 .definition-list,
 .analysis-list {
   display: grid;
@@ -693,6 +726,10 @@ tr:last-child td {
   }
 
   .info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .figure-grid {
     grid-template-columns: 1fr;
   }
 
