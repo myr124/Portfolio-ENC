@@ -636,19 +636,6 @@ tr:last-child td {
   background: transparent;
 }
 
-.video-note {
-  display: grid;
-  min-height: 15rem;
-  place-items: center;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  color: var(--muted-foreground);
-  text-align: center;
-  border: 2px dashed color-mix(in srgb, var(--secondary) 40%, transparent);
-  border-radius: var(--radius);
-  background: color-mix(in srgb, var(--card) 70%, transparent);
-}
-
 .resume-card {
   margin-top: 2rem;
 }
