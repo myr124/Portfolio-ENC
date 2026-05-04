@@ -226,10 +226,7 @@ li + li {
 }
 
 .hero {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 320px;
-  align-items: stretch;
-  gap: 3rem;
+  display: block;
   padding: 5rem 0 4rem;
   border-bottom: 1px solid var(--border);
 }
@@ -243,7 +240,7 @@ li + li {
 }
 
 .hero-copy {
-  max-width: 52rem;
+  max-width: 58rem;
   color: color-mix(in srgb, var(--foreground) 78%, var(--muted-foreground));
   font-size: 1.12rem;
 }
